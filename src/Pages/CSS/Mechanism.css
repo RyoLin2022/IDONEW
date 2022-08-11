@@ -1,0 +1,22 @@
+#mechanismpage {
+    margin-top: -30px;
+    color: white;
+    background-color: black;
+    opacity: 0.92;
+}
+
+#mechanismTable1, #mechanismTable2 {
+    margin-top: 20px;
+    width: 60vw;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+#mechanismTableHead {
+    font-size: 40px;
+}
+
+.mechanism td {
+    width: 300px;
+}

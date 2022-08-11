@@ -1,0 +1,101 @@
+.IDOSection {
+    width: 300px;
+    margin-top: -20px;
+    background-color: black;
+    opacity: 0.92;
+}
+
+.IDOSec1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid white;
+}
+
+.IDOSec2 {
+    size: 10px;
+    border: 1px solid white;
+}
+
+.IDOSec3 {    
+    border: 1px solid white;
+    padding-bottom: 20px;
+}
+.IDOSec4 {    
+    border: 1px solid white;
+    padding-bottom: 20px;
+}
+.IDOSec5 {    
+    border: 1px solid white;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.IDO {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#inviteLink {
+    width: 120px;
+    height: 40px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    flex: 1;
+}
+
+#makeIDO {
+    width: 120px;
+    height: 40px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    flex: 1;
+}
+
+#claimIDO {
+    width: 120px;
+    height: 40px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    flex: 1;
+}
+
+table {    
+    font-family: 'Roboto', sans-serif;
+}
+
+#IDOTable {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#th1 {    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid white;
+}
+
+#tr0 {
+    font-size: 20px;
+    text-align: left;
+}
+
+#tr1, #tr2 {
+    font-size: 20px;
+}

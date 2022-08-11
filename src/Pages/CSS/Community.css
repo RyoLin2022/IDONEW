@@ -1,0 +1,45 @@
+#community-Title {
+    color: white;
+    margin-top: -40px;
+    background-color: black;
+    opacity: 0.92;
+}
+
+#community-Title {
+    font-family: 'Roboto', sans-serif;
+}
+.insideCommunity {
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.92;
+}
+
+.nav-textCom {
+    width: 300px;
+}
+
+
+.nav-textCom {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-textCom a{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    border-radius: 4px;
+}
+
+.nav-textCom a:hover{
+    background-color: #1a83ff;
+}
