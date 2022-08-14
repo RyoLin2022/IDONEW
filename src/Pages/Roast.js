@@ -103,10 +103,8 @@ function Roast() {
 
     return (
         <div className='roast'>
-
             <div id="roastpage" >
-                13216531456
-                <h3>Generate Referal Links</h3>
+                <h3>Roast Infinity</h3>
                 <CopyToClipboard text={refLink} onCopy={() => setCopied(true)}>
                     <button id="inviteLink">
                         Copy Invite Link

@@ -1,0 +1,24 @@
+.makeACard {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 210px;
+    height: 297px;
+    background-color: black;
+    margin: 20px 20px 20px 20px;
+}
+
+.outSide {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#FirePic {
+    width:210px;
+    height:297px;
+    object-fit:cover;
+}
+
+.CARD {
+    background-image: none;
+}

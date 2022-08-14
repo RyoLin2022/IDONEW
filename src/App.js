@@ -10,6 +10,7 @@ import Community from './Pages/Community';
 import { useState } from 'react';
 import { ethers } from 'ethers';
 import Roast from './Pages/Roast';
+import CARD from './Pages/CARD';
 
 
 export let savedAcc;
@@ -32,7 +33,7 @@ function App() {
             params: [
               {
                 chainId: '0x42',
-                chainName: 'Smart Chain',
+                chainName: 'OKC Mainnet',
                 nativeCurrency: {
                   name: 'OKC Mainnet',
                   symbol: 'OKT', // 2-6 characters long
@@ -44,7 +45,7 @@ function App() {
             ],
           });
         } catch (addError) {
-          alert("Please change the chain to BSC");
+          alert("Please change the chain to OKC");
           console.error(addError);
         }
       }
@@ -125,6 +126,7 @@ function App() {
           <Route path='/lpstaking' element={<LPStaking />} />
           <Route path='/community' element={<Community />} />
           <Route path='/roast' element={<Roast />} />
+          <Route path='/card' element={<CARD />} />
         </Routes>
       </Router>
       {/* <h1>Designer <a href="https://t.me/RyoLin" className="Ryo">RyoLin</a></h1>

@@ -10,12 +10,12 @@ export const SidebarData = [
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
     },
-    {
-        title: 'Mechanism',
-        path: '/mechanism',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'nav-text'
-    },
+    // {
+    //     title: 'Mechanism',
+    //     path: '/mechanism',
+    //     icon: <IoIcons.IoIosPaper />,
+    //     cName: 'nav-text'
+    // },
     {
         title: 'IDO',
         path: '/IDO',
@@ -40,12 +40,12 @@ export const SidebarData = [
         icon: <FaIcons.FaPersonBooth />,
         cName: 'nav-text'
     },
-    {
-        title: 'Support',
-        path: '/support',
-        icon: <IoIcons.IoMdHelpCircle />,
-        cName: 'nav-text'
-    },
+    // {
+    //     title: 'Support',
+    //     path: '/support',
+    //     icon: <IoIcons.IoMdHelpCircle />,
+    //     cName: 'nav-text'
+    // },
     {
         title: 'Roast',
         path: '/roast',
